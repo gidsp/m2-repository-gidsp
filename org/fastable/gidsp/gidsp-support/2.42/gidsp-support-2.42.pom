@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.fastable.gidsp</groupId>
+    <artifactId>gidsp</artifactId>
+    <version>2.42</version>
+  </parent>
+
+  <artifactId>gidsp-support</artifactId>
+  <packaging>pom</packaging>
+  <name>gidsp Support Parent Project</name>
+
+  <modules>
+    <module>gidsp-support-commons</module>
+    <module>gidsp-support-db-migration</module>
+    <module>gidsp-support-test</module>
+    <module>gidsp-support-external</module>
+    <module>gidsp-support-hibernate</module>
+    <module>gidsp-support-audit</module>
+    <module>gidsp-support-system</module>
+    <module>gidsp-support-jdbc</module>
+    <module>gidsp-support-sql</module>
+    <module>gidsp-support-expression-parser</module>
+    <module>gidsp-support-artemis</module>
+    <module>gidsp-support-cache-invalidation</module>
+  </modules>
+
+  <properties>
+    <rootDir>../</rootDir>
+  </properties>
+</project>

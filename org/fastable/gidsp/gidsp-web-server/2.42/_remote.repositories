@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sun Jan 05 02:28:48 UTC 2025
+gidsp-web-server-2.42.war>=
+gidsp-web-server-2.42.pom>=

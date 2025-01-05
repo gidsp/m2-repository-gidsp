@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.fastable.gidsp</groupId>
+    <artifactId>gidsp</artifactId>
+    <version>2.42</version>
+  </parent>
+
+  <artifactId>gidsp-services</artifactId>
+  <packaging>pom</packaging>
+  <name>gidsp Services Parent Project</name>
+
+  
+
+  <modules>
+    
+    <module>gidsp-service-schema</module>
+    <module>gidsp-service-setting</module>
+    
+    <module>gidsp-service-acl</module>
+    <module>gidsp-service-audit-consumer</module>
+    
+    <module>gidsp-service-node</module>
+    
+    <module>gidsp-service-core</module>
+    
+    <module>gidsp-service-validation</module>
+    
+    <module>gidsp-service-administration</module>
+    <module>gidsp-service-dxf2</module>
+    <module>gidsp-service-field-filtering</module>
+    
+    <module>gidsp-service-metadata-workflow</module>
+    <module>gidsp-service-analytics</module>
+    <module>gidsp-service-tracker</module>
+    
+    <module>gidsp-service-reporting</module>
+    <module>gidsp-service-data-exchange</module>
+    <module>gidsp-service-event-hook</module>
+  </modules>
+
+  <properties>
+    <rootDir>../</rootDir>
+  </properties>
+</project>

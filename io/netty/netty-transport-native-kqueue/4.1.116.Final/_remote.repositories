@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sun Jan 05 02:19:23 UTC 2025
+netty-transport-native-kqueue-4.1.116.Final-osx-x86_64.jar>central-mirror=
+netty-transport-native-kqueue-4.1.116.Final.pom>central-mirror=
+netty-transport-native-kqueue-4.1.116.Final-osx-aarch_64.jar>central-mirror=

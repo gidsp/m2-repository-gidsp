@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.fastable.gidsp</groupId>
+    <artifactId>gidsp-support</artifactId>
+    <version>2.42</version>
+  </parent>
+
+  <artifactId>gidsp-support-audit</artifactId>
+  <packaging>jar</packaging>
+  <name>gidsp Audit Support</name>
+
+  <properties>
+    <rootDir>../../</rootDir>
+  </properties>
+
+  <dependencies>
+
+    
+    <dependency>
+      <groupId>org.fastable.gidsp</groupId>
+      <artifactId>gidsp-api</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.fastable.gidsp</groupId>
+      <artifactId>gidsp-support-commons</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.fastable.gidsp</groupId>
+      <artifactId>gidsp-support-system</artifactId>
+    </dependency>
+
+    
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-jdbc</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-core</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <scope>provided</scope>
+    </dependency>
+
+    
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
